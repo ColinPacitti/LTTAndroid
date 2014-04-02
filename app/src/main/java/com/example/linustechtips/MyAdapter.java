@@ -54,7 +54,7 @@ public class MyAdapter extends ArrayAdapter<ThreadName>{
 			holder.image = (ImageView) row.findViewById(R.id.icon);
 			holder.title = (TextView) row.findViewById(R.id.title);
 			holder.commentCount = (TextView) row.findViewById(R.id.comments);
-            holder.date = (TextView) row.findViewById(R.id.date);
+            //holder.date = (TextView) row.findViewById(R.id.date);
 		
 			row.setTag(holder);
 		
@@ -73,7 +73,7 @@ public class MyAdapter extends ArrayAdapter<ThreadName>{
 		ThreadName threadname = values[position];
 		holder.title.setText(threadname.title);
 		holder.commentCount.setText("Replies " + threadname.comments.substring(13));
-        holder.date.setText(threadname.date);
+        //holder.date.setText(threadname.date);
 		ImageLoader.displayImage(threadname.image,holder.image, defaultOptions);
 
 		return row;
