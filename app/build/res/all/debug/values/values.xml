@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/Alfred/AndroidStudioProjects/LinusTechTips/app/src/main/res/values/color.xml -->
+    <eat-comment />
+
+    <color name="drawer">#F7F7F7</color>
+    <!-- From: file:/Users/Alfred/AndroidStudioProjects/LinusTechTips/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/Alfred/AndroidStudioProjects/LinusTechTips/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">LinusTechTips</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_comments">Comments</string>
+    <string name="title_activity_thread">Thread</string>
+    <!-- From: file:/Users/Alfred/AndroidStudioProjects/LinusTechTips/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#DB4105</item>
+        <item name="android:titleTextStyle">@style/MyActionBarText</item>
+    </style>
+
+    <style name="MyActionBarText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="selected">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+</resources>

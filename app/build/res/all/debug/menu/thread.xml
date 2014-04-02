@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+	    <item android:id="@+id/comments"
+          android:icon="@drawable/comments"
+          android:showAsAction="ifRoom"
+          android:layout_width="50px"
+          android:layout_height="50px"/>
+
+    
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
+<!-- From: file:/Users/Alfred/AndroidStudioProjects/LinusTechTips/app/src/main/res/menu/thread.xml -->
