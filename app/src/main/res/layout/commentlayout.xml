@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp">
+    
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dip"
+        android:layout_marginLeft="6dip"
+        android:gravity="center"/>
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_toRightOf="@id/icon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="7dp"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/time"
+         android:textColor="#DB4105" 
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/icon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="7dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/comments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon"
+        android:layout_marginTop="6dip"
+        android:layout_marginLeft="6dip"
+        android:textSize="15sp" />
+
+</RelativeLayout>
