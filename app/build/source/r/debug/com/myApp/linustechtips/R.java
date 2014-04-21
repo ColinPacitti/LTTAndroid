@@ -28,9 +28,10 @@ public final class R {
         public static final int logo_launcher=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000c;
+        public static final int action_settings=0x7f09000d;
         public static final int comments=0x7f09000b;
         public static final int content_frame=0x7f090006;
+        public static final int date=0x7f09000c;
         public static final int drawer_layout=0x7f090002;
         public static final int icon=0x7f090008;
         public static final int left_drawer=0x7f090004;

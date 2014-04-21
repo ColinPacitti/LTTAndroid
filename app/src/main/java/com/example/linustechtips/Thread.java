@@ -50,7 +50,7 @@ public class Thread extends Activity {
         ActionBar bar = getActionBar();
         
         mShortAnimationDuration = getResources().getInteger(
-                android.R.integer.config_mediumAnimTime);
+                android.R.integer.config_longAnimTime);
 
         if(isOnline()){
 		    new GetThreadDownload().execute(values);
